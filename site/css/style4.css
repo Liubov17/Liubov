@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	background: lightcyan;
+	text-align: center;
+	line-height: 2;
+}
+.wrapper>div{
+	border: 1px solid black;
+	display: block;
+}
+.clearFix::after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.float1{
+	background: #BC8F8F
+}
+.f1{
+	width: 300px;
+	}
+.float2{
+	background: #ADFF2F;
+}
+.f2{
+	width: 600px;
+}
+
+.floatLeft{
+	float: left;
+}
+.f2_2{
+	width: 300px;
+}
+.float3 {
+	background: grey;
+}
+.f3_1 {
+	width: 300px;
+}
+.f3_2 {
+	width: 850px;
+}
+.in_f3_1{
+	color: red;
+}
+.in_f3_33{
+	width: 400px;
+	color: yellow;
+}
+.in_f3_34 {
+	width: 300px;
+}
+.in_f3_35{
+	color: blue;
+}
+.in_f3_36{
+	color: green;
+}
+.float4{
+	background: pink;
+}
+.f4_1{
+	width: 800px;
+}
+.in_f4_2{
+	color: blue;
+}
+.in_f4_2{
+	width: 400px;
+}
+.in_f4_20{
+	width: 200px;
+}
+.in_f4_21{
+	width:190px;
+	color: red;
+}
+.in_f4_22{
+	width: 390px;
+	color: grey;
+}
+.in_f4_23{
+	width: 400px;
+	color: white;
+}
+.f4_2{
+	width: 350px;
+}
+.in_f4_24{
+	color: yellow;
+}
+.in_f4_25{
+	color: #8B008B;
+}
+.in_f4_26{
+	color: #2F4F4F;
+}

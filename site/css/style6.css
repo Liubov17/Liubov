@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+	text-align: justify;
+	margin: 20px auto;
+	width: 900px;
+	background-color: rgba(224, 255, 255,.4) ;
+	padding: 50px 10px 60px 10px;
+	font-size: 1.4em;
+}	
+header {
+			margin-bottom: 40px;
+			display: block;
+}
+		.mainmenu {
+			text-align: center;
+			position: relative;
+			z-index: 5;
+			display: flex;
+			justify-content: center;
+			font-family: 'Dancing Script', cursive;
+		}
+
+		.mainmenu li {
+			margin-right: 8px;
+			font-size: 20px;
+			background: #d4faff;
+			position: relative;
+			width: 150px;
+			height: 70px;
+			border: 1px solid pink;
+		}
+		.mainmenu>.bef1>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 5px;
+		}
+
+		.mainmenu>.bef2>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 50px;
+		}
+
+		.mainmenu>.afterclass>a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 50px 20px 20px;
+		}
+
+		.mainmenu ul li a {
+			display: block;
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+			padding: 20px 20px 20px 50px;
+		}
+
+		.mainmenu .bef1 a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	   .mainmenu>.bef2>a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../img/sprite.png');
+	   		background-position: -32px -64px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	     .mainmenu>.afterclass>a:after {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../images/im.png');
+	   		background-position: -32px -128px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		right: 0;
+	   }
+
+	    .mainmenu>.afterclass:hover>a:after {
+	   		background-position: -32px -160px;
+	   }
+
+	   .mainmenu ul a:before {
+			content: "";
+	   		width: 32px;
+	   		height: 32px;
+	   		background: url('../imges/im.png');
+	   		background-position: -64px -64px;
+	   		transition: all 1s ease;
+	   		position: absolute;
+	   		top: 0;
+	   		left: 0;
+	   }
+
+	    .mainmenu ul li a:before {
+	    	background-position: -96px 0;
+	    }
+	
+	    .mainmenu ul li+li a:before {
+	    	background-position: -128px 0;
+	    }
+
+	    .fchild:hover>a:before {
+	    	background-position: -96px -32px;
+	    }
+
+	    .mainmenu ul ul li a:before {
+	    	background-position: -160px 0;
+	    }
+
+	    .mainmenu ul ul li+li a:before {
+	    	background-position: -192px 0;
+	    }
+
+	    .mainmenu ul ul li+li+li a:before {
+	    	background-position: -224px 0;
+	    }
+
+		.mainmenu li:hover {
+			background: #edca72;
+		}
+		.mainmenu ul {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			opacity: 0;
+			transition: all 1s linear;
+			font-family: 'thecircousregular';
+		}
+
+		.mainmenu li:hover>ul {
+			opacity: 1;
+		}
+
+		.mainmenu ul ul {
+			position: absolute;
+			left: -100%;
+			right: 100%;
+			top: 0;
+			height: 0;
+			overflow: hidden;
+			transition: all 3s ease;
+			font-family: 'Conv_Reckless';
+		}
+
+		.mainmenu ul li:hover>ul {
+			height: auto;
+		}
+
+		p{
+			margin: 10px;
+		}

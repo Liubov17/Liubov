@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrapper{
+	max-width: 900px;
+	margin: 0 auto;
+	background: lightcyan;
+	line-height: 22px;
+	text-align: justify;
+}
+.wrapper div{
+	border: 1px solid black;
+}
+.inline01{
+	font-size: 0px;
+	background: #7FFF00;
+}
+.inl_1{
+	display: inline-block;
+	width: 285px;
+	font-size: 16px;
+	}
+.inline02{
+	font-size: 0px;
+	background: #FF0000;
+}
+.inline002{
+	width: 600px;
+	display: inline-block;
+}
+.inl_2{
+	font-size: 16px;
+}
+.inline0022{
+	width: 280px;
+	display: inline-block;
+}
+.inl_22{
+	font-size: 16px;
+}
+.inline03{
+		font-size: 0px;
+	background: #00FF7F;
+}
+.inline003{
+	width: 300px;
+	display: inline-block;
+}
+.inl_3{
+	font-size: 16px;
+}
+.inline0003{
+	width: 550px;
+	display: inline-block;
+}
+.inl_33{
+	width: 550px;
+	font-size: 16px;
+}
+.inline00033{
+	width: 550px;
+	font-size: 0;
+}
+.inline000333{
+	display: inline-block;
+	width: 300px;
+	font-size: 16px;
+}
+.inline0003_{
+	display: inline-block;
+	width: 220px;
+}
+.inline0003333{
+	width: 220px;
+	font-size: 16px;
+}
+.inline04{
+	font-size: 0px;
+	background: #A9A9A9;
+}
+.inl_4{
+	display: inline-block;
+	width: 600px;
+}
+.inl_41{
+width: 600px;
+font-size: 16px;
+}
+.inl_42{
+width: 600px;
+font-size: 0px;
+}
+.inl_422{
+	display: inline-block;
+	width: 300px;
+	font-size: 0px;
+}
+.inl_4222{
+	display: inline-block;
+	width: 140px;
+	font-size: 16px;
+}
+.inl_42222{
+	width: 280px;
+	font-size: 16px;
+}
+.inl_442222{
+	display: inline-block;
+	width: 250px;
+	font-size: 16px;
+}
+.inl_5{
+	display: inline-block;
+	width: 280px;
+}
+.inl_55{
+	width: 250px;
+	font-size: 16px;
+}
